@@ -1,0 +1,10 @@
+<div class="card-container">
+    <div class="image">
+        <a [routerLink]="['news', id]"><img src="{{ imageUrl }}" alt="Ilustração da notícia secundária"></a>
+    </div>
+    <div class="text">
+        <span class="creditos">Créditos da imagem: <a target="_blank" href="{{ creditsUrl }}">Google</a></span>
+
+        <a [routerLink]="['news', id]"><p>{{ shortContent }}</p></a>
+    </div>
+</div>

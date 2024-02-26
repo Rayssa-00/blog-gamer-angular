@@ -1,0 +1,10 @@
+<a [routerLink]="['news',id]">
+    <img src="{{ imageUrl }}" alt="Ilustração da notícia principal">
+</a>
+
+<span class="creditos">Créditos da imagem: <a target="_blank" href="{{ creditsUrl }}">IGN</a></span>
+
+<a [routerLink]="['news',id]">
+    <h2>{{ title }}</h2>
+    <p>{{ shortContent }}</p>
+</a>

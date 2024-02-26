@@ -1,0 +1,47 @@
+.news-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+figure.newsImage {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+figure.newsImage img {
+    width: 100%;
+}
+
+.credits {
+    text-align: center;
+    color: #777;
+    font-size: .7rem;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+h1, h2 {
+    color: #eee;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    border-bottom: 1px solid #777;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    color: #777;
+    text-align: justify;
+}

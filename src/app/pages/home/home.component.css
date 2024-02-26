@@ -1,0 +1,28 @@
+.articles-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem 0 2rem 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box-left, .box-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-left {
+    width: 44%;
+}
+
+.box-right {
+    width: 52%;
+}
+
+.separator {
+    margin: 1rem 0 1rem 0;
+}
+
+.separator hr {
+    border: 1px solid #333;
+}
